@@ -27,6 +27,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
+" disable |K| for :GoDoc
+let g:go_doc_keywordprg_enabled = 0
+
 if !empty(glob(data_dir . '/plugged/gruvbox'))
   colorscheme gruvbox
   set background=dark
