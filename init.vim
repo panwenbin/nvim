@@ -46,8 +46,8 @@ set expandtab
 set autoindent
 
 " ESC
-:imap jk <Esc>
-:imap kj <Esc>
+imap jk <Esc>
+imap kj <Esc>
 " move faster
 noremap J 5j
 noremap K 5k
