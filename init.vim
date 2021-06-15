@@ -14,7 +14,7 @@ Plug 'yggdroot/indentline'
 " umcomment the line below to enable plugin for golang. go should be installed on the OS.
 " Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
-" uncomment the line below to enable plugin for python
+" uncomment the line below to enable plugin for python. python3-pynvim should be installed on the OS
 " Plug 'davidhalter/jedi-vim'
 
 " uncomment the 2 lines below to enable tagbar. universal-ctags should be installed on the OS.
