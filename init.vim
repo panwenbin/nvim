@@ -219,6 +219,11 @@ autocmd FileType sql nmap <localleader>ro vip:w !
 autocmd FileType sql vmap <localleader>rt :FloatermNew!<Space>
 autocmd FileType sql nmap <localleader>rt vip:FloatermNew!<Space>
 
+" ncm2-phpactor
+autocmd BufEnter * call ncm2#enable_for_buffer()
+set completeopt=noinsert,menuone,noselect
+nmap <leader>o :call phpactor#GotoDefinition()<CR>
+
 " closetag
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.vue'
 let g:closetag_filetypes = 'html,xhtml,phtml,vue'
