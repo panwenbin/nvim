@@ -94,7 +94,6 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:floaterm_width = 0.95
 let g:floaterm_height = 0.95
 let g:floaterm_autoinsert = 1
-let g:floaterm_wintitle = 0
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
