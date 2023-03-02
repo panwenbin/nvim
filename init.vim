@@ -219,6 +219,10 @@ autocmd FileType sql nmap <localleader>ro vip:w !
 autocmd FileType sql vmap <localleader>rt :FloatermNew!<Space>
 autocmd FileType sql nmap <localleader>rt vip:FloatermNew!<Space>
 
+" wd-dict
+vmap <localleader>wd :FloatermNew wd<CR>
+nmap <localleader>wd viw:FloatermNew wd<CR>
+
 " ncm2-phpactor
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=noinsert,menuone,noselect
