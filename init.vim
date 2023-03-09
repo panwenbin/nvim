@@ -82,6 +82,9 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 
+" Hop
+Plug 'phaazon/hop.nvim'
+
 call plug#end()
 
 set timeoutlen=500
@@ -255,3 +258,7 @@ autocmd InsertEnter * :silent if fcitx5state == 2 | call system("fcitx5-remote -
 vnoremap <Leader>y "+y
 "reload vimrc                                                             
 nnoremap <Leader>r :source $MYVIMRC<CR>
+
+lua << EOF
+require'hop'.setup()
+EOF
