@@ -237,9 +237,8 @@ let g:closetag_filetypes = 'html,xhtml,phtml,vue'
 let g:tagalong_filetypes = ['html','xhtml','phtml','vue']
 
 " fzf
-nnoremap <C-l> :Buffers<CR>
-nnoremap <C-f> :Files<CR>
-nnoremap <C-p> :GFiles<CR>
+nnoremap <C-p> :Files<CR>
+nnoremap <C-p><C-p> :GFiles<CR>
 " fzf Ag
 nnoremap <C-s> :Ag 
 
@@ -253,6 +252,10 @@ nnoremap <silent> <leader>tu :silent !tmux split-window -h<CR>:silent !tmux send
 let fcitx5state=system("fcitx5-remote")
 autocmd InsertLeave * :silent let fcitx5state=system("fcitx5-remote")[0] | silent !fcitx5-remote -c
 autocmd InsertEnter * :silent if fcitx5state == 2 | call system("fcitx5-remote -o") | endif
+
+" hop
+nnoremap <C-f> :HopChar1<CR>
+nnoremap <C-f><C-f> :HopWord<CR>
 
 " copy to system clipboard
 vnoremap <Leader>y "+y
