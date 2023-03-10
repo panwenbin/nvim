@@ -85,6 +85,9 @@ Plug 'kristijanhusak/vim-dadbod-ui'
 " Hop
 Plug 'phaazon/hop.nvim'
 
+" NerdCommenter
+Plug 'scrooloose/nerdcommenter'
+
 call plug#end()
 
 set timeoutlen=500
