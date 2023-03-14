@@ -129,6 +129,8 @@ let g:which_key_map.t = {
 
 " disable |K| for :GoDoc
 let g:go_doc_keywordprg_enabled = 0
+" disable |gd| for :GoDef
+let g:go_def_mapping_enabled = 0
 
 let g:rustfmt_autosave = 1
 
