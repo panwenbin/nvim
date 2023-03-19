@@ -215,6 +215,7 @@ endfunction
 
 autocmd FileType go nmap <localleader>b :<C-u>call <SID>build_go_files()<CR>
 autocmd FileType go nmap <localleader>c <Plug>(go-coverage-toggle)
+autocmd FileType go nmap <localleader>d <Plug>(go-def)
 autocmd FileType go nmap <localleader>n <Plug>(go-referrers)
 
 " clickhouse-format
