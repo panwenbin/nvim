@@ -234,7 +234,7 @@ nmap <localleader>wd viw:FloatermNew wd<CR>
 " ncm2-phpactor
 autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=noinsert,menuone,noselect
-nmap <leader>o :call phpactor#GotoDefinition()<CR>
+autocmd FileType php nmap <localleader>d <Plug>(phpactor-goto-definition)
 
 " closetag
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.vue'
