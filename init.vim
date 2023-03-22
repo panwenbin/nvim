@@ -170,7 +170,7 @@ inoremap [ []<ESC>i
 inoremap { {<CR>}<ESC>O
 vnoremap > >gv
 vnoremap < <gv
-nnoremap <ESC> :Commands<CR>
+nnoremap <ESC><ESC> :Commands<CR>
 
 let mapleader = "\<Space>"
 let maplocalleader = ","
