@@ -268,6 +268,14 @@ vnoremap <Leader>y "+y
 "reload vimrc                                                             
 nnoremap <Leader>r :source $MYVIMRC<CR>
 
+" transparent background
+hi Normal ctermfg=252 ctermbg=none
+
+" Floaterm
+hi Floaterm guibg=#110f18
+hi FloatermBorder guifg=#49b4e3 guibg=#110f18
+hi FloatermNC guibg=#2b2033
+
 lua << EOF
 require'hop'.setup()
 EOF
