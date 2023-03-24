@@ -265,6 +265,8 @@ nnoremap <C-f><C-f> :HopWord<CR>
 
 " copy to system clipboard
 vnoremap <Leader>y "+y
+noremap <Leader>yf :let @+ = expand("%:t")<CR>
+noremap <Leader>yp :let @+ = expand("%:p")<CR>
 "reload vimrc                                                             
 nnoremap <Leader>r :source $MYVIMRC<CR>
 
