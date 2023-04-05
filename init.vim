@@ -225,6 +225,9 @@ autocmd FileType go nmap <localleader>c <Plug>(go-coverage-toggle)
 autocmd FileType go nmap <localleader>d <Plug>(go-def)
 autocmd FileType go nmap <localleader>n <Plug>(go-referrers)
 
+" python
+let g:jedi#usages_command = "<localleader>n"
+let g:jedi#goto_command = "<localleader>d"
 " clickhouse-format
 autocmd FileType sql vmap <localleader>f :!clickhouse-format -n<CR>
 autocmd FileType sql vmap <localleader>ri :!
