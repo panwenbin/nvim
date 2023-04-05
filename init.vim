@@ -166,10 +166,15 @@ inoremap () ()
 inoremap [] []
 inoremap {} {}
 inoremap ' ''<ESC>i
+vnoremap ' c''<ESC>hp
 inoremap " ""<ESC>i
+vnoremap " c""<ESC>hp
 inoremap ( ()<ESC>i
+vnoremap ( c()<ESC>hp
 inoremap [ []<ESC>i
+vnoremap [ c[]<ESC>hp
 inoremap { {<CR>}<ESC>O
+vnoremap { c{}<ESC>hp
 vnoremap > >gv
 vnoremap < <gv
 nnoremap <ESC><ESC> :Commands<CR>
