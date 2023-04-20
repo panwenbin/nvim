@@ -6,6 +6,8 @@ endif
 
 " known shortcuts
 " gt -> go to tab, 1gt -> go to 1st tab
+" gf -> go to file
+" gx -> go to url
 " ctrl+w+hjkl -> switch window
 " ctrl+w+w -> next window
 " ctrl+w+v -> vsplit window
