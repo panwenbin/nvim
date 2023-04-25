@@ -258,6 +258,7 @@ let g:tagalong_filetypes = ['html','xhtml','phtml','vue']
 " fzf
 nnoremap <C-p> :Files<CR>
 nnoremap <C-p><C-p> :GFiles<CR>
+nnoremap <C-g><C-g> :BCommits<CR>
 " fzf Ag
 nnoremap <C-s> :Ag 
 
