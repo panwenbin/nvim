@@ -58,6 +58,9 @@ Plug 'davidhalter/jedi-vim'
 Plug 'alvan/vim-closetag'
 Plug 'andrewradev/tagalong.vim'
 
+" css color
+Plug 'ap/vim-css-color'
+
 " uncomment the 2 lines below to enable tagbar. universal-ctags should be installed on the OS.
 Plug 'majutsushi/tagbar'
 Plug 'ludovicchabant/vim-gutentags'
