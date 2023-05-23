@@ -188,6 +188,7 @@ let mapleader = "\<Space>"
 let maplocalleader = ","
 
 " buffer
+map <leader>bc :%bd\|e#\|bd#<CR>
 map bn :bnext<CR>
 map bp :bprevious<CR>
 
