@@ -96,6 +96,9 @@ Plug 'scrooloose/nerdcommenter'
 " vim-workspace
 Plug 'thaerkh/vim-workspace'
 
+" undotree
+Plug 'mbbill/undotree'
+
 call plug#end()
 
 set timeoutlen=500
