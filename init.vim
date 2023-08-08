@@ -93,6 +93,9 @@ Plug 'phaazon/hop.nvim'
 " NerdCommenter
 Plug 'scrooloose/nerdcommenter'
 
+" vim-workspace
+Plug 'thaerkh/vim-workspace'
+
 call plug#end()
 
 set timeoutlen=500
