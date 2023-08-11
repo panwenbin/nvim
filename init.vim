@@ -190,9 +190,6 @@ vnoremap > >gv
 vnoremap < <gv
 nnoremap <ESC><ESC> :Commands<CR>
 
-" window
-nnoremap <Tab> <C-W>w
-
 let mapleader = "\<Space>"
 let maplocalleader = ","
 
